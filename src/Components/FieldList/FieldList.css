@@ -1,0 +1,59 @@
+.options-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.option-cards{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1px solid #ccc;
+    background-color: #eee;    
+    box-shadow: 4px 8px 8px #ccc;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    margin: 1rem 0rem;
+}
+
+.slider-value-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;    
+}
+
+.slider-value-text span{
+    text-align: right;
+    width: 10%;
+
+}
+
+.color-box{
+    display: flex;
+
+    justify-content: flex-start;    
+    padding: 0 0.7rem;
+    width: 200px;
+    position: relative;
+}
+
+.color-box p{        
+    width: 160px;
+    text-align: left;
+}
+.color-box .inputcolor{    
+    border: none;
+    width: 10%;
+    background: transparent;
+    position: absolute;    
+    width: 40px;
+    height: 40px;
+    top: 8px;
+    right:0;
+    cursor: pointer;
+}
+
+.MuiSlider-root{
+    color: #f50057 !important;
+}
